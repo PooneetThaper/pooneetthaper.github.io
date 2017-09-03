@@ -1,0 +1,19 @@
+#banner {
+  height: 400px;
+  background: url(../img/milkbg.jpg) no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+
+.row {
+  padding-bottom: 30px;
+}
+
+.jumbotron {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  background-color: rgba(0,0,0,0.6);
+  color: #fff;
+}
