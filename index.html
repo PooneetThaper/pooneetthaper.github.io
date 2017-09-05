@@ -4,17 +4,24 @@
     <title>Pooneet Thaper</title>
     <link rel="stylesheet" href="css/cyborg.css">
     <link rel="stylesheet" href="css/styles.css">
+    <!-- CDN for P5.js library to run the sketch -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
+    <!-- Sketch file to run with P5.js -->
+    <script src="js/sketch.js"></script>
   </head>
 
   <body>
     <div class="container-fluid">
+      <!--
       <div id="nav-bar">
         <ul class="nav nav-tabs">
           <li role="presentation" class="active"><a href="#">Home</a></li>
           <li role="presentation"><a href="#">About Me</a></li>
-          <li role="presentation"><a href="#">(something?)</a></li>
+          <li role="presentation"><a href="#">Projects</a></li>
+          <li role="presentation"><a href="#"></a></li>
         </ul>
       </div>
+    -->
 
       <div class="row text-center" id="banner">
         <div class="jumbotron">
@@ -23,13 +30,63 @@
         </div>
       </div>
 
-      <div class="row">
-        <div id="about-me">
+      <div class="row box">
+        <div class="col-md-7 col-xs-12" id="about-me">
+          <div class="row">
+            <h3 class="text-center"> About Me </h3>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <p>
+                Welcome! I am a Junior in the Macaulay Honors program at the City College of New York studying Computer Science. My interests include, but are nowhere near limited to, Full Stack Web Development and Machine Learning/Deep Learning.
+              </p>
+              <p>
+                When I have some time, I like to explore new technologies and work on side projects in order to learn new things. Through this, classes, and hackathons, I have had the pleasure of trying out a wide range of technologies. Some things I have experience in are:
+              </p>
+            </div>
+            <div class="col-sm-4">
+              <p>Languages:</p>
+              <ul>
+                <li>Python</li>
+                <li>C++</li>
+                <li>Java</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <p>Libraries:</p>
+              <ul>
+                <li>Tensorflow</li>
+                <li>SciKitLearn</li>
+                <li>Processing/P5.js</li>
+                <li>MatPlotLib</li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <p>Other:</p>
+              <ul>
+                <li>Amazon Web Services</li>
+                <li>ElasticSearch</li>
+                <li>MongoDB</li>
+                <li>Docker</li>
+              </ul>
+            </div>
+          </div>
         </div>
 
-        <div>
+        <div class="col-lg-6" id="photo">
+
+        </div>
+      </div>
+    <!--
+      <div class="row">
+        <h3 class="col-lg-12 text-center">Projects
+
       </div>
 
+      <div class="row">
+      </div>
+    -->
     </div>
   </body>
 </html>

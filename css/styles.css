@@ -1,3 +1,7 @@
+body {
+  overflow-y: hidden;
+}
+
 #banner {
   height: 400px;
   background: url(../img/milkbg.jpg) no-repeat center;
@@ -6,7 +10,7 @@
 }
 
 .row {
-  padding-bottom: 30px;
+  padding-bottom: 15px;
 }
 
 .jumbotron {
@@ -16,4 +20,12 @@
   transform: translateY(-50%) translateX(-50%);
   background-color: rgba(0,0,0,0.6);
   color: #fff;
+}
+
+.box {
+  padding: 10px 10px 15px 25px;
+}
+
+h3 {
+  margin: 0;
 }
